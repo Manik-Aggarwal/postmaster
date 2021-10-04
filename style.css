@@ -1,0 +1,42 @@
+#responsePre{
+    max-height: 500px;
+}
+h1{
+    color: white;
+}
+*{
+    font-weight: 900;
+}
+body{
+    background-color: aqua;
+    background-image: url("d2.png");
+}
+.foot ul{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    color: white;
+}
+.foot ul li{ 
+    list-style: none;
+    font-size: 2rem;
+    padding: 20px 30px;
+}
+
+.foot ul li a{
+    color:black;
+    display: block;
+    text-decoration: none;
+}
+
+.foot ul li a:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 500px){
+    .foot ul li{ 
+        padding: 5px 10px;
+    }
+}
